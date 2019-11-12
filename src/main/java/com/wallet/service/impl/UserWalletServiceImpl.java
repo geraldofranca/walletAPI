@@ -17,5 +17,4 @@ public class UserWalletServiceImpl implements UserWalletService {
 	public UserWallet save(UserWallet uw) {
 		return repository.save(uw);
 	}
-
 }
